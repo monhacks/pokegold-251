@@ -40,7 +40,7 @@ KantoGrassWildMons:
 	db 12, PARAS
 	db 10, SANDSLASH
 	db 8, CLEFAIRY
-	db 8, CLEFAIRY
+	db 10, OMANYTE
 	; day
 	db 6, ZUBAT
 	db 8, GEODUDE
@@ -48,7 +48,7 @@ KantoGrassWildMons:
 	db 12, PARAS
 	db 10, SANDSLASH
 	db 8, CLEFAIRY
-	db 8, CLEFAIRY
+	db 10, OMANYTE
 	; nite
 	db 6, ZUBAT
 	db 8, GEODUDE
@@ -56,7 +56,7 @@ KantoGrassWildMons:
 	db 12, PARAS
 	db 10, SANDSLASH
 	db 8, CLEFAIRY
-	db 8, CLEFAIRY
+	db 10, KABUTO
 	ELIF DEF(_SILVER)
 	; morn
 	db 6, ZUBAT
@@ -65,7 +65,7 @@ KantoGrassWildMons:
 	db 12, PARAS
 	db 10, GEODUDE
 	db 8, CLEFAIRY
-	db 8, CLEFAIRY
+	db 10, OMANYTE
 	; day
 	db 6, ZUBAT
 	db 8, GEODUDE
@@ -73,7 +73,7 @@ KantoGrassWildMons:
 	db 12, PARAS
 	db 10, GEODUDE
 	db 8, CLEFAIRY
-	db 8, CLEFAIRY
+	db 10, OMANYTE
 	; nite
 	db 6, ZUBAT
 	db 8, GEODUDE
@@ -81,7 +81,7 @@ KantoGrassWildMons:
 	db 12, PARAS
 	db 10, GEODUDE
 	db 8, CLEFAIRY
-	db 8, CLEFAIRY
+	db 10, KABUTO
 	ENDC
 	end_grass_wildmons
 
@@ -94,7 +94,7 @@ KantoGrassWildMons:
 	db 8, ZUBAT
 	db 14, MACHOKE
 	db 13, CUBONE
-	db 13, CUBONE
+	db 15, CHARMANDER
 	; day
 	db 10, CUBONE
 	db 10, GEODUDE
@@ -102,7 +102,7 @@ KantoGrassWildMons:
 	db 8, ZUBAT
 	db 14, MACHOKE
 	db 13, CUBONE
-	db 13, CUBONE
+	db 15, CHARMANDER
 	; nite
 	db 10, CUBONE
 	db 10, GEODUDE
@@ -110,7 +110,7 @@ KantoGrassWildMons:
 	db 8, ZUBAT
 	db 14, MACHOKE
 	db 13, CUBONE
-	db 13, CUBONE
+	db 15, CHARMANDER
 	end_grass_wildmons
 
 	def_grass_wildmons ROCK_TUNNEL_B1F
@@ -122,7 +122,7 @@ KantoGrassWildMons:
 	db 10, ZUBAT
 	db 14, MAROWAK
 	db 14, KANGASKHAN
-	db 14, KANGASKHAN
+	db 15, CHARMANDER
 	; day
 	db 12, CUBONE
 	db 12, GEODUDE
@@ -130,7 +130,7 @@ KantoGrassWildMons:
 	db 10, ZUBAT
 	db 14, MAROWAK
 	db 14, KANGASKHAN
-	db 14, KANGASKHAN
+	db 15, CHARMANDER
 	; nite
 	db 12, CUBONE
 	db 12, GEODUDE
@@ -138,7 +138,7 @@ KantoGrassWildMons:
 	db 10, ZUBAT
 	db 14, MAROWAK
 	db 14, KANGASKHAN
-	db 14, KANGASKHAN
+	db 15, CHARMANDER
 	end_grass_wildmons
 
 	def_grass_wildmons VICTORY_ROAD
@@ -266,7 +266,7 @@ KantoGrassWildMons:
 	db 7, BUTTERFREE
 	db 7, PIDGEOTTO
 	db 4, PIKACHU
-	db 4, PIKACHU
+	db 5, BULBASAUR
 	; day
 	db 3, CATERPIE
 	db 3, PIDGEY
@@ -274,7 +274,7 @@ KantoGrassWildMons:
 	db 7, PIDGEY
 	db 7, PIDGEOTTO
 	db 4, PIKACHU
-	db 4, PIKACHU
+	db 5, BULBASAUR
 	; nite
 	db 3, HOOTHOOT
 	db 3, SPINARAK
@@ -282,7 +282,7 @@ KantoGrassWildMons:
 	db 7, NOCTOWL
 	db 7, ARIADOS
 	db 4, PIKACHU
-	db 4, PIKACHU
+	db 5, BULBASAUR
 	ELIF DEF(_SILVER)
 	; morn
 	db 3, WEEDLE
@@ -291,7 +291,7 @@ KantoGrassWildMons:
 	db 7, BEEDRILL
 	db 7, LEDIAN
 	db 4, PIKACHU
-	db 4, PIKACHU
+	db 5, BULBASAUR
 	; day
 	db 3, WEEDLE
 	db 3, PIDGEY
@@ -299,7 +299,7 @@ KantoGrassWildMons:
 	db 7, PIDGEY
 	db 7, PIDGEOTTO
 	db 4, PIKACHU
-	db 4, PIKACHU
+	db 5, BULBASAUR
 	; nite
 	db 3, HOOTHOOT
 	db 3, HOOTHOOT
@@ -307,7 +307,7 @@ KantoGrassWildMons:
 	db 7, NOCTOWL
 	db 7, NOCTOWL
 	db 4, PIKACHU
-	db 4, PIKACHU
+	db 5, BULBASAUR
 	ENDC
 	end_grass_wildmons
 
@@ -321,7 +321,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, RATTATA
 	db 8, SPEAROW
-	db 8, SPEAROW
+	db 7, CHARMANDER
 	; day
 	db 5, SPEAROW
 	db 5, RATTATA
@@ -329,7 +329,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, RATTATA
 	db 8, SPEAROW
-	db 8, SPEAROW
+	db 7, CHARMANDER
 	; nite
 	db 5, RATTATA
 	db 5, ZUBAT
@@ -337,7 +337,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, RATTATA
 	db 8, RATTATA
-	db 8, RATTATA
+	db 7, CHARMANDER
 	ELIF DEF(_SILVER)
 	; morn
 	db 5, SPEAROW
@@ -346,7 +346,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, ARBOK
 	db 8, SPEAROW
-	db 8, SPEAROW
+	db 7, CHARMANDER
 	; day
 	db 5, SPEAROW
 	db 5, RATTATA
@@ -354,7 +354,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, ARBOK
 	db 8, SPEAROW
-	db 8, SPEAROW
+	db 7, CHARMANDER
 	; nite
 	db 5, RATTATA
 	db 5, ZUBAT
@@ -362,7 +362,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, ARBOK
 	db 8, RATTATA
-	db 8, RATTATA
+	db 7, CHARMANDER
 	ENDC
 	end_grass_wildmons
 
@@ -377,7 +377,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, RATTATA
 	db 8, SPEAROW
-	db 8, SPEAROW
+	db 10, CHARMANDER
 	; day
 	db 5, SPEAROW
 	db 5, RATTATA
@@ -385,7 +385,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, RATTATA
 	db 8, SPEAROW
-	db 8, SPEAROW
+	db 10, CHARMANDER
 	; nite
 	db 5, SPEAROW
 	db 5, ZUBAT
@@ -393,7 +393,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, RATTATA
 	db 8, RATTATA
-	db 8, RATTATA
+	db 10, CHARMANDER
 	ELIF DEF(_SILVER)
 	; morn
 	db 5, SPEAROW
@@ -402,7 +402,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, ARBOK
 	db 8, SPEAROW
-	db 8, SPEAROW
+	db 10, CHARMANDER
 	; day
 	db 5, SPEAROW
 	db 5, RATTATA
@@ -410,7 +410,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, ARBOK
 	db 8, SPEAROW
-	db 8, SPEAROW
+	db 10, CHARMANDER
 	; nite
 	db 5, RATTATA
 	db 5, ZUBAT
@@ -418,7 +418,7 @@ KantoGrassWildMons:
 	db 6, JIGGLYPUFF
 	db 10, ARBOK
 	db 8, RATTATA
-	db 8, RATTATA
+	db 10, CHARMANDER
 	ENDC
 	end_grass_wildmons
 
@@ -1067,7 +1067,7 @@ KantoGrassWildMons:
 	db 12, WEEPINBELL
 	db 8, VENONAT
 	db 14, WEEPINBELL
-	db 14, WEEPINBELL
+	db 12, SQUIRTLE
 	; day
 	db 8, BELLSPROUT
 	db 10, SUNKERN
@@ -1075,7 +1075,7 @@ KantoGrassWildMons:
 	db 12, WEEPINBELL
 	db 10, BELLSPROUT
 	db 14, WEEPINBELL
-	db 14, WEEPINBELL
+	db 12, SQUIRTLE
 	; nite
 	db 8, VENONAT
 	db 10, ODDISH
@@ -1083,7 +1083,7 @@ KantoGrassWildMons:
 	db 13, WEEPINBELL
 	db 10, BELLSPROUT
 	db 10, VENOMOTH
-	db 10, VENOMOTH
+	db 12, SQUIRTLE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_25
@@ -1095,7 +1095,7 @@ KantoGrassWildMons:
 	db 9, ABRA
 	db 10, PIDGEOTTO
 	db 14, WEEPINBELL
-	db 14, WEEPINBELL
+	db 12, SQUIRTLE
 	; day
 	db 8, PIDGEY
 	db 10, BELLSPROUT
@@ -1103,7 +1103,7 @@ KantoGrassWildMons:
 	db 9, ABRA
 	db 12, PIDGEOTTO
 	db 14, WEEPINBELL
-	db 14, WEEPINBELL
+	db 12, SQUIRTLE
 	; nite
 	db 8, VENONAT
 	db 10, ODDISH
@@ -1111,7 +1111,7 @@ KantoGrassWildMons:
 	db 9, ABRA
 	db 14, WEEPINBELL
 	db 10, BELLSPROUT
-	db 10, BELLSPROUT
+	db 12, SQUIRTLE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_26

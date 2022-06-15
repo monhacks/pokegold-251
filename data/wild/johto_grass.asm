@@ -451,7 +451,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 5, CYNDAQUIL
 	; day
 	db 6, GEODUDE
 	db 6, SANDSHREW
@@ -459,7 +459,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 5, CYNDAQUIL
 	; nite
 	db 6, GEODUDE
 	db 6, SANDSHREW
@@ -467,7 +467,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 5, CYNDAQUIL
 	ELIF DEF(_SILVER)
 	; morn
 	db 6, GEODUDE
@@ -476,7 +476,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 5, CYNDAQUIL
 	; day
 	db 6, GEODUDE
 	db 6, RATTATA
@@ -484,7 +484,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 5, CYNDAQUIL
 	; nite
 	db 6, GEODUDE
 	db 6, RATTATA
@@ -492,7 +492,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 5, CYNDAQUIL
 	ENDC
 	end_grass_wildmons
 
@@ -645,7 +645,7 @@ JohtoGrassWildMons:
 	db 5, PARAS
 	db 5, ZUBAT
 	db 6, PARAS
-	db 6, PARAS
+	db 5, CHIKORITA
 	; day
 	db 5, CATERPIE
 	db 6, CATERPIE
@@ -653,7 +653,7 @@ JohtoGrassWildMons:
 	db 6, METAPOD
 	db 5, ZUBAT
 	db 6, PARAS
-	db 6, PARAS
+	db 5, CHIKORITA
 	ELIF DEF(_SILVER)
 	; morn
 	db 5, WEEDLE
@@ -662,7 +662,7 @@ JohtoGrassWildMons:
 	db 5, PARAS
 	db 5, ZUBAT
 	db 6, PARAS
-	db 6, PARAS
+	db 5, CHIKORITA
 	; day
 	db 5, WEEDLE
 	db 6, WEEDLE
@@ -670,7 +670,7 @@ JohtoGrassWildMons:
 	db 6, KAKUNA
 	db 5, ZUBAT
 	db 6, PARAS
-	db 6, PARAS
+	db 5, CHIKORITA
 	ENDC
 
 	; nite
@@ -680,7 +680,7 @@ JohtoGrassWildMons:
 	db 5, PARAS
 	db 5, ZUBAT
 	db 6, PARAS
-	db 6, PARAS
+	db 5, CHIKORITA
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -1718,7 +1718,7 @@ JohtoGrassWildMons:
 	db 6, HOPPIP
 	db 6, RATTATA
 	db 4, WOOPER
-	db 4, ZUBAT
+	db 5, TOTODILE
 	; day
 	db 6, BELLSPROUT
 	db 4, RATTATA
@@ -1726,7 +1726,7 @@ JohtoGrassWildMons:
 	db 6, HOPPIP
 	db 6, RATTATA
 	db 8, RATTATA
-	db 8, RATTATA
+	db 5, TOTODILE
 	; nite
 	db 6, WOOPER
 	db 4, RATTATA
@@ -1734,7 +1734,7 @@ JohtoGrassWildMons:
 	db 6, MAREEP
 	db 8, WOOPER
 	db 8, ZUBAT
-	db 8, ZUBAT
+	db 5, TOTODILE
 	ELIF DEF(_SILVER)
 	; morn
 	db 6, BELLSPROUT
@@ -1743,7 +1743,7 @@ JohtoGrassWildMons:
 	db 6, HOPPIP
 	db 6, RATTATA
 	db 4, WOOPER
-	db 4, ZUBAT
+	db 5, TOTODILE
 	; day
 	db 6, BELLSPROUT
 	db 4, EKANS
@@ -1751,7 +1751,7 @@ JohtoGrassWildMons:
 	db 6, HOPPIP
 	db 6, RATTATA
 	db 8, RATTATA
-	db 8, RATTATA
+	db 5, TOTODILE
 	; nite
 	db 6, WOOPER
 	db 4, EKANS
@@ -1759,7 +1759,7 @@ JohtoGrassWildMons:
 	db 6, MAREEP
 	db 8, WOOPER
 	db 8, ZUBAT
-	db 8, ZUBAT
+	db 5, TOTODILE
 	ENDC
 	end_grass_wildmons
 
