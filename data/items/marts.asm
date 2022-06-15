@@ -125,12 +125,16 @@ MartGoldenrod3F:
 	db -1 ; end
 
 MartGoldenrod4F:
-	db 5 ; # items
+	db 9 ; # items
 	db PROTEIN
 	db IRON
 	db CARBOS
 	db CALCIUM
 	db HP_UP
+	db FIRE_STONE
+	db THUNDER_STONE
+	db WATER_STONE
+	db LEAF_STONE
 	db -1 ; end
 
 MartGoldenrod5F1:
@@ -322,8 +326,12 @@ MartCeladon3F:
 	db -1 ; end
 
 MartCeladon4F:
-	db 3 ; # items
+	db 7 ; # items
 	db POKE_DOLL
+	db FIRE_STONE
+	db THUNDER_STONE
+	db WATER_STONE
+	db LEAF_STONE
 	db LOVELY_MAIL
 	db SURF_MAIL
 	db -1 ; end
