@@ -169,15 +169,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_41
 	db 6 percent ; encounter rate
-	IF DEF(_GOLD)
 	db 20, TENTACOOL
 	db 20, TENTACRUEL
 	db 20, MANTINE
-	ELIF DEF(_SILVER)
-	db 20, TENTACOOL
-	db 20, TENTACRUEL
-	db 15, TENTACOOL
-	ENDC
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_42

@@ -805,7 +805,7 @@ JohtoGrassWildMons:
 	db 23, SWINUB
 	db 22, ZUBAT
 	db 22, JYNX
-	db 22, JYNX
+	db 22, DELIBIRD
 	; day
 	db 21, SWINUB
 	db 22, GOLBAT
@@ -813,7 +813,7 @@ JohtoGrassWildMons:
 	db 23, SWINUB
 	db 22, JYNX
 	db 20, JYNX
-	db 20, JYNX
+	db 22, DELIBIRD
 	; nite
 	db 21, SWINUB
 	db 22, GOLBAT
@@ -821,7 +821,7 @@ JohtoGrassWildMons:
 	db 23, SWINUB
 	db 22, ZUBAT
 	db 22, JYNX
-	db 22, JYNX
+	db 22, DELIBIRD
 	ELIF DEF(_SILVER)
 	; morn
 	db 21, SWINUB
@@ -860,7 +860,7 @@ JohtoGrassWildMons:
 	db 23, SWINUB
 	db 22, ZUBAT
 	db 22, JYNX
-	db 22, JYNX
+	db 22, DELIBIRD
 	; day
 	db 21, SWINUB
 	db 22, GOLBAT
@@ -868,7 +868,7 @@ JohtoGrassWildMons:
 	db 23, SWINUB
 	db 22, JYNX
 	db 20, JYNX
-	db 20, JYNX
+	db 22, DELIBIRD
 	; nite
 	db 21, SWINUB
 	db 22, GOLBAT
@@ -876,7 +876,7 @@ JohtoGrassWildMons:
 	db 23, SWINUB
 	db 22, ZUBAT
 	db 22, JYNX
-	db 22, JYNX
+	db 22, DELIBIRD
 	ELIF DEF(_SILVER)
 	; morn
 	db 21, SWINUB
@@ -915,7 +915,7 @@ JohtoGrassWildMons:
 	db 24, SWINUB
 	db 23, ZUBAT
 	db 23, JYNX
-	db 23, JYNX
+	db 23, DELIBIRD
 	; day
 	db 22, SWINUB
 	db 23, GOLBAT
@@ -923,7 +923,7 @@ JohtoGrassWildMons:
 	db 24, SWINUB
 	db 23, JYNX
 	db 21, JYNX
-	db 21, JYNX
+	db 23, DELIBIRD
 	; nite
 	db 22, SWINUB
 	db 23, GOLBAT
@@ -931,7 +931,7 @@ JohtoGrassWildMons:
 	db 24, SWINUB
 	db 23, ZUBAT
 	db 23, JYNX
-	db 23, JYNX
+	db 23, DELIBIRD
 	ELIF DEF(_SILVER)
 	; morn
 	db 22, SWINUB
@@ -970,7 +970,7 @@ JohtoGrassWildMons:
 	db 24, SWINUB
 	db 23, ZUBAT
 	db 23, JYNX
-	db 23, JYNX
+	db 23, DELIBIRD
 	; day
 	db 22, SWINUB
 	db 23, GOLBAT
@@ -978,7 +978,7 @@ JohtoGrassWildMons:
 	db 24, SWINUB
 	db 23, JYNX
 	db 21, JYNX
-	db 21, JYNX
+	db 23, DELIBIRD
 	; nite
 	db 22, SWINUB
 	db 23, GOLBAT
@@ -986,7 +986,7 @@ JohtoGrassWildMons:
 	db 24, SWINUB
 	db 23, ZUBAT
 	db 23, JYNX
-	db 23, JYNX
+	db 23, DELIBIRD
 	ELIF DEF(_SILVER)
 	; morn
 	db 22, SWINUB
@@ -1025,7 +1025,7 @@ JohtoGrassWildMons:
 	db 25, SWINUB
 	db 24, ZUBAT
 	db 24, JYNX
-	db 24, JYNX
+	db 24, DELIBIRD
 	; day
 	db 23, SWINUB
 	db 24, GOLBAT
@@ -1033,7 +1033,7 @@ JohtoGrassWildMons:
 	db 25, SWINUB
 	db 24, JYNX
 	db 22, JYNX
-	db 22, JYNX
+	db 24, DELIBIRD
 	; nite
 	db 23, SWINUB
 	db 24, GOLBAT
@@ -1041,7 +1041,7 @@ JohtoGrassWildMons:
 	db 25, SWINUB
 	db 24, ZUBAT
 	db 24, JYNX
-	db 24, JYNX
+	db 24, DELIBIRD
 	ELIF DEF(_SILVER)
 	; morn
 	db 23, SWINUB
@@ -1302,50 +1302,50 @@ JohtoGrassWildMons:
 	db 44, URSARING
 	db 43, GRAVELER
 	db 43, GRAVELER
-	db 45, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 45, GOLBAT
+	db 44, DONPHAN
 	; day
 	db 42, ONIX
 	db 44, URSARING
 	db 43, GRAVELER
 	db 43, GRAVELER
-	db 45, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 45, GOLBAT
+	db 44, DONPHAN
 	; nite
 	db 42, ONIX
 	db 44, URSARING
 	db 43, GRAVELER
 	db 43, GRAVELER
-	db 45, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 45, GOLBAT
+	db 44, DONPHAN
 	ELIF DEF(_SILVER)
 	; morn
 	db 42, ONIX
 	db 44, DONPHAN
 	db 43, GRAVELER
 	db 43, GRAVELER
-	db 45, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 45, GOLBAT
+	db 44, URSARING
 	; day
 	db 42, ONIX
 	db 44, DONPHAN
 	db 43, GRAVELER
 	db 43, GRAVELER
-	db 45, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 45, GOLBAT
+	db 44, URSARING
 	; nite
 	db 42, ONIX
 	db 44, DONPHAN
 	db 43, GRAVELER
 	db 43, GRAVELER
-	db 45, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 45, GOLBAT
+	db 44, URSARING
 	ENDC
 	end_grass_wildmons
 
@@ -1357,50 +1357,50 @@ JohtoGrassWildMons:
 	db 48, GOLDUCK
 	db 47, URSARING
 	db 45, QUAGSIRE
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, DONPHAN
 	; day
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
 	db 47, URSARING
 	db 45, QUAGSIRE
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, DONPHAN
 	; nite
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
 	db 47, URSARING
 	db 45, MISDREAVUS
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, DONPHAN
 	ELIF DEF(_SILVER)
 	; morn
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
 	db 47, DONPHAN
 	db 45, QUAGSIRE
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, URSARING
 	; day
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
 	db 47, DONPHAN
 	db 45, QUAGSIRE
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, URSARING
 	; nite
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
 	db 47, DONPHAN
 	db 45, MISDREAVUS
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, URSARING
 	ENDC
 	end_grass_wildmons
 
@@ -1412,50 +1412,50 @@ JohtoGrassWildMons:
 	db 48, ONIX
 	db 48, GOLBAT
 	db 50, URSARING
-	db 51, GOLDUCK
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 51, GOLDUCK
+	db 50, DONPHAN
 	; day
 	db 51, GOLBAT
 	db 48, ONIX
 	db 48, GOLBAT
 	db 50, URSARING
-	db 51, GOLDUCK
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 51, GOLDUCK
+	db 50, DONPHAN
 	; nite
 	db 51, GOLBAT
 	db 48, ONIX
 	db 48, GOLBAT
 	db 50, URSARING
-	db 51, GOLDUCK
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 51, GOLDUCK
+	db 50, DONPHAN
 	ELIF DEF(_SILVER)
 	; morn
 	db 51, GOLBAT
 	db 48, ONIX
 	db 48, GOLBAT
 	db 50, DONPHAN
-	db 51, GOLDUCK
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 51, GOLDUCK
+	db 50, URSARING
 	; day
 	db 51, GOLBAT
 	db 48, ONIX
 	db 48, GOLBAT
 	db 50, DONPHAN
-	db 51, GOLDUCK
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 51, GOLDUCK
+	db 50, URSARING
 	; nite
 	db 51, GOLBAT
 	db 48, ONIX
 	db 48, GOLBAT
 	db 50, DONPHAN
-	db 51, GOLDUCK
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 51, GOLDUCK
+	db 50, URSARING
 	ENDC
 	end_grass_wildmons
 
@@ -1467,50 +1467,50 @@ JohtoGrassWildMons:
 	db 48, GOLDUCK
 	db 47, URSARING
 	db 45, QUAGSIRE
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, DONPHAN
 	; day
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
 	db 47, URSARING
 	db 45, QUAGSIRE
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, DONPHAN
 	; nite
 	db 45, MISDREAVUS
 	db 48, GOLDUCK
 	db 47, URSARING
 	db 45, QUAGSIRE
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, DONPHAN
 	ELIF DEF(_SILVER)
 	; morn
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
 	db 47, DONPHAN
 	db 45, QUAGSIRE
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, URSARING
 	; day
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
 	db 47, DONPHAN
 	db 45, QUAGSIRE
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, URSARING
 	; nite
 	db 45, MISDREAVUS
 	db 48, GOLDUCK
 	db 47, DONPHAN
 	db 45, QUAGSIRE
-	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 48, GOLBAT
+	db 47, URSARING
 	ENDC
 	end_grass_wildmons
 
@@ -1608,7 +1608,7 @@ JohtoGrassWildMons:
 	db 4, METAPOD
 	db 4, PIDGEY
 	db 4, PIDGEY
-	db 4, PIDGEY
+	db 3, LEDYBA
 	; day
 	db 2, PIDGEY
 	db 3, CATERPIE
@@ -1649,7 +1649,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 4, HOOTHOOT
 	db 4, HOOTHOOT
-	db 4, HOOTHOOT
+	db 3, SPINARAK
 	ENDC
 	end_grass_wildmons
 
@@ -1663,7 +1663,7 @@ JohtoGrassWildMons:
 	db 5, METAPOD
 	db 5, CATERPIE
 	db 5, METAPOD
-	db 5, METAPOD
+	db 4, LEDYBA
 	; day
 	db 3, PIDGEY
 	db 4, CATERPIE
@@ -1704,7 +1704,7 @@ JohtoGrassWildMons:
 	db 5, RATTATA
 	db 5, HOOTHOOT
 	db 5, HOOTHOOT
-	db 5, HOOTHOOT
+	db 4, SPINARAK
 	ENDC
 	end_grass_wildmons
 
@@ -1911,7 +1911,7 @@ JohtoGrassWildMons:
 	db 13, GROWLITHE
 	db 13, STANTLER
 	db 15, PIDGEY
-	db 15, PIDGEY
+	db 15, VULPIX
 	; day
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
@@ -1919,7 +1919,7 @@ JohtoGrassWildMons:
 	db 13, GROWLITHE
 	db 13, STANTLER
 	db 15, GROWLITHE
-	db 15, GROWLITHE
+	db 15, VULPIX
 	; nite
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
@@ -1927,7 +1927,7 @@ JohtoGrassWildMons:
 	db 13, GROWLITHE
 	db 13, STANTLER
 	db 15, HOOTHOOT
-	db 15, HOOTHOOT
+	db 15, VULPIX
 	ELIF DEF(_SILVER)
 	; morn
 	db 12, NIDORAN_F
@@ -1936,7 +1936,7 @@ JohtoGrassWildMons:
 	db 13, VULPIX
 	db 13, STANTLER
 	db 15, PIDGEY
-	db 15, PIDGEY
+	db 15, GROWLITHE
 	; day
 	db 12, NIDORAN_F
 	db 12, NIDORAN_M
@@ -1944,7 +1944,7 @@ JohtoGrassWildMons:
 	db 13, VULPIX
 	db 13, STANTLER
 	db 15, VULPIX
-	db 15, VULPIX
+	db 15, GROWLITHE
 	; nite
 	db 12, NIDORAN_F
 	db 12, NIDORAN_M
@@ -1952,7 +1952,7 @@ JohtoGrassWildMons:
 	db 13, VULPIX
 	db 13, STANTLER
 	db 15, HOOTHOOT
-	db 15, HOOTHOOT
+	db 15, GROWLITHE
 	ENDC
 	end_grass_wildmons
 
@@ -1965,8 +1965,8 @@ JohtoGrassWildMons:
 	db 15, PIDGEY
 	db 14, GROWLITHE
 	db 15, PIDGEY
-	db 15, PIDGEY
-	db 15, PIDGEY
+	db 15, LEDYBA
+	db 16, VULPIX
 	; day
 	db 13, PIDGEY
 	db 15, STANTLER
@@ -1974,7 +1974,7 @@ JohtoGrassWildMons:
 	db 14, GROWLITHE
 	db 15, PIDGEOTTO
 	db 16, GROWLITHE
-	db 16, GROWLITHE
+	db 16, VULPIX
 	; nite
 	db 13, SPINARAK
 	db 15, STANTLER
@@ -1982,7 +1982,7 @@ JohtoGrassWildMons:
 	db 14, GROWLITHE
 	db 15, SPINARAK
 	db 15, SPINARAK
-	db 15, SPINARAK
+	db 16, VULPIX
 	ELIF DEF(_SILVER)
 	; morn
 	db 13, LEDYBA
@@ -1991,7 +1991,7 @@ JohtoGrassWildMons:
 	db 14, VULPIX
 	db 15, LEDYBA
 	db 15, LEDYBA
-	db 15, LEDYBA
+	db 16, GROWLITHE
 	; day
 	db 13, PIDGEY
 	db 15, STANTLER
@@ -1999,15 +1999,15 @@ JohtoGrassWildMons:
 	db 14, VULPIX
 	db 15, PIDGEOTTO
 	db 16, VULPIX
-	db 16, VULPIX
+	db 16, GROWLITHE
 	; nite
 	db 13, HOOTHOOT
 	db 15, STANTLER
 	db 15, HOOTHOOT
 	db 14, VULPIX
 	db 15, HOOTHOOT
-	db 15, HOOTHOOT
-	db 15, HOOTHOOT
+	db 15, SPINARAK
+	db 16, GROWLITHE
 	ENDC
 	end_grass_wildmons
 
@@ -2076,7 +2076,7 @@ JohtoGrassWildMons:
 	db 16, FARFETCH_D
 	db 15, MILTANK
 	db 15, TAUROS
-	db 15, TAUROS
+	db 16, MEOWTH
 	; day
 	db 16, RATTATA
 	db 17, RATICATE
@@ -2084,7 +2084,7 @@ JohtoGrassWildMons:
 	db 16, FARFETCH_D
 	db 15, MILTANK
 	db 15, TAUROS
-	db 15, TAUROS
+	db 16, MEOWTH
 	; nite
 	db 16, RATTATA
 	db 17, RATICATE
@@ -2092,7 +2092,7 @@ JohtoGrassWildMons:
 	db 16, RATTATA
 	db 15, MILTANK
 	db 15, TAUROS
-	db 15, TAUROS
+	db 16, MEOWTH
 	ELIF DEF(_SILVER)
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
@@ -2157,7 +2157,7 @@ JohtoGrassWildMons:
 	db 16, SPEAROW
 	db 15, FLAAFFY
 	db 17, FLAAFFY
-	db 17, FLAAFFY
+	db 15, MANKEY
 	; day
 	db 13, MAREEP
 	db 14, SPEAROW
@@ -2165,7 +2165,7 @@ JohtoGrassWildMons:
 	db 16, SPEAROW
 	db 15, FLAAFFY
 	db 17, FLAAFFY
-	db 17, FLAAFFY
+	db 15, MANKEY
 	; nite
 	db 13, MAREEP
 	db 14, ZUBAT
@@ -2173,7 +2173,7 @@ JohtoGrassWildMons:
 	db 16, ZUBAT
 	db 15, FLAAFFY
 	db 17, FLAAFFY
-	db 17, FLAAFFY
+	db 15, MANKEY
 	ENDC
 	end_grass_wildmons
 
@@ -2242,49 +2242,49 @@ JohtoGrassWildMons:
 	db 24, GLIGAR
 	db 20, TEDDIURSA
 	db 25, GRAVELER
-	db 27, GRAVELER
-	db 27, GRAVELER
+	db 27, SKARMORY
+	db 20, PHANPY
 	; day
 	db 23, GEODUDE
 	db 23, GRAVELER
 	db 24, GLIGAR
 	db 20, TEDDIURSA
 	db 25, GRAVELER
-	db 27, GRAVELER
-	db 27, GRAVELER
+	db 27, SKARMORY
+	db 20, PHANPY
 	; nite
 	db 23, GEODUDE
 	db 23, GRAVELER
 	db 24, GLIGAR
 	db 20, TEDDIURSA
 	db 25, GRAVELER
-	db 27, GRAVELER
-	db 27, GRAVELER
+	db 27, SKARMORY
+	db 20, PHANPY
 	ELIF DEF(_SILVER)
 	; morn
 	db 23, GEODUDE
-	db 23, GRAVELER
 	db 24, GRAVELER
 	db 20, PHANPY
 	db 25, GRAVELER
 	db 27, SKARMORY
-	db 27, SKARMORY
+	db 24, GLIGAR
+	db 20, TEDDIURSA
 	; day
 	db 23, GEODUDE
-	db 23, GRAVELER
 	db 24, GRAVELER
 	db 20, PHANPY
 	db 25, GRAVELER
 	db 27, SKARMORY
-	db 27, SKARMORY
+	db 24, GLIGAR
+	db 20, TEDDIURSA
 	; nite
 	db 23, GEODUDE
-	db 23, GRAVELER
 	db 24, GRAVELER
 	db 20, PHANPY
 	db 25, GRAVELER
 	db 27, SKARMORY
-	db 27, SKARMORY
+	db 24, GLIGAR
+	db 20, TEDDIURSA
 	ENDC
 	end_grass_wildmons
 
@@ -2326,7 +2326,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
-	db 43, DODRIO
+	db 42, DONPHAN
 	; day
 	db 41, TANGELA
 	db 42, PONYTA
@@ -2334,7 +2334,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
-	db 43, DODRIO
+	db 42, DONPHAN
 	; nite
 	db 41, TANGELA
 	db 42, PONYTA
@@ -2342,7 +2342,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 38, SNEASEL
 	db 42, SNEASEL
-	db 42, SNEASEL
+	db 42, DONPHAN
 	ELIF DEF(_SILVER)
 	; morn
 	db 41, TANGELA
@@ -2351,7 +2351,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
-	db 43, DODRIO
+	db 42, URSARING
 	; day
 	db 41, TANGELA
 	db 42, PONYTA
@@ -2359,7 +2359,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
-	db 43, DODRIO
+	db 42, URSARING
 	; nite
 	db 41, TANGELA
 	db 42, PONYTA
@@ -2367,7 +2367,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 38, SNEASEL
 	db 42, SNEASEL
-	db 42, SNEASEL
+	db 42, URSARING
 	ENDC
 	end_grass_wildmons
 
