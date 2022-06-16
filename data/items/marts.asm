@@ -132,7 +132,7 @@ MartGoldenrod4F:
 	db CALCIUM
 	db HP_UP
 	db FIRE_STONE
-	db THUNDER_STONE
+	db THUNDERSTONE
 	db WATER_STONE
 	db LEAF_STONE
 	db -1 ; end
@@ -329,7 +329,7 @@ MartCeladon4F:
 	db 7 ; # items
 	db POKE_DOLL
 	db FIRE_STONE
-	db THUNDER_STONE
+	db THUNDERSTONE
 	db WATER_STONE
 	db LEAF_STONE
 	db LOVELY_MAIL
