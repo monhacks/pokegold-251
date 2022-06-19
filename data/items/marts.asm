@@ -9,6 +9,7 @@ Marts:
 	dw MartGoldenrod2F1
 	dw MartGoldenrod2F2
 	dw MartGoldenrod3F
+	dw MartGoldenrod3F2
 	dw MartGoldenrod4F
 	dw MartGoldenrod5F1
 	dw MartGoldenrod5F2
@@ -123,18 +124,22 @@ MartGoldenrod3F:
 	db GUARD_SPEC
 	db X_ACCURACY
 	db -1 ; end
+	
+MartGoldenrod3F2:
+	db 4 ; # items
+	db FIRE_STONE
+	db THUNDERSTONE
+	db WATER_STONE
+	db LEAF_STONE
+	db -1 ; end
 
 MartGoldenrod4F:
-	db 9 ; # items
+	db 5 ; # items
 	db PROTEIN
 	db IRON
 	db CARBOS
 	db CALCIUM
 	db HP_UP
-	db FIRE_STONE
-	db THUNDERSTONE
-	db WATER_STONE
-	db LEAF_STONE
 	db -1 ; end
 
 MartGoldenrod5F1:
