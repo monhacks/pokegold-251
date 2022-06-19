@@ -126,11 +126,12 @@ MartGoldenrod3F:
 	db -1 ; end
 	
 MartGoldenrod3F2:
-	db 4 ; # items
+	db 5 ; # items
 	db FIRE_STONE
 	db THUNDERSTONE
 	db WATER_STONE
 	db LEAF_STONE
+	db LINKING_CORD
 	db -1 ; end
 
 MartGoldenrod4F:
@@ -331,12 +332,13 @@ MartCeladon3F:
 	db -1 ; end
 
 MartCeladon4F:
-	db 7 ; # items
+	db 8 ; # items
 	db POKE_DOLL
 	db FIRE_STONE
 	db THUNDERSTONE
 	db WATER_STONE
 	db LEAF_STONE
+	db LINKING_CORD
 	db LOVELY_MAIL
 	db SURF_MAIL
 	db -1 ; end

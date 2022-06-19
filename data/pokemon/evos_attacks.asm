@@ -838,7 +838,7 @@ AbraEvosAttacks:
 
 KadabraEvosAttacks:
 	db EVOLVE_TRADE, -1, ALAKAZAM
-	db EVOLVE_LEVEL, 40, ALAKAZAM
+	db EVOLVE_ITEM, LINKING_CORD, ALAKAZAM
 	db 0 ; no more evolutions
 	db 1, TELEPORT
 	db 1, KINESIS
@@ -883,7 +883,7 @@ MachopEvosAttacks:
 
 MachokeEvosAttacks:
 	db EVOLVE_TRADE, -1, MACHAMP
-	db EVOLVE_LEVEL, 40, MACHAMP
+	db EVOLVE_ITEM, LINKING_CORD, MACHAMP
 	db 0 ; no more evolutions
 	db 1, LOW_KICK
 	db 1, LEER
@@ -998,7 +998,7 @@ GeodudeEvosAttacks:
 
 GravelerEvosAttacks:
 	db EVOLVE_TRADE, -1, GOLEM
-	db EVOLVE_LEVEL, 40, GOLEM
+	db EVOLVE_ITEM, LINKING_CORD, GOLEM
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
@@ -1253,7 +1253,7 @@ GastlyEvosAttacks:
 
 HaunterEvosAttacks:
 	db EVOLVE_TRADE, -1, GENGAR
-	db EVOLVE_LEVEL, 40, GENGAR
+	db EVOLVE_ITEM, LINKING_CORD, GENGAR
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK
